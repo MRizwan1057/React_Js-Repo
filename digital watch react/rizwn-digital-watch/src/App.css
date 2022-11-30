@@ -1,0 +1,30 @@
+div{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+
+h3{
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1.5rem;
+    background-color: black;
+    color: #fff;
+    padding: 2rem;
+    margin: 1.5rem;
+    display: block;
+    }
+  
+  h4{
+    font-size: 3rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1.5rem;
+    background-color: rgb(41, 29, 29);
+    color: #fff;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    display: block;
+  }

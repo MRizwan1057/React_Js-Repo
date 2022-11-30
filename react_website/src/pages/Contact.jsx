@@ -80,7 +80,7 @@ const Contact = () => {
               </div>
 
               <div className="form-group">
-                <label htmlFor="msg">Example textarea</label>
+                <label htmlFor="msg">Message</label>
                 <textarea
                   className="form-control"
                   id="msg"

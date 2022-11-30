@@ -16,7 +16,7 @@ const Card = (props) => {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </p>
-            <NavLink to="/contact" className="btn btn-outline-info btn-small">
+            <NavLink to="/contact" className="btn btn-outline-info shadow">
               Avail Service
             </NavLink>
           </div>

@@ -38,9 +38,9 @@ const Contact = () => {
         </h1>
       </div>
 
-      <div className="container">
-        <div className="row">
-          <div className="col-md-7 col-10 mx-auto">
+      <div className="container mb-5">
+        <div className="row shadow p-3">
+          <div className="col-md-8 col-10 mx-auto">
             <form onSubmit={handleSubmit}>
               <div className="form-group">
                 <label htmlFor="fname">Full Name</label>

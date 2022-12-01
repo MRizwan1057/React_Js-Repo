@@ -21,7 +21,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     alert(
-      `Hi ${data.fname} ...!  yor from has been submitted successfully...}`
+      `Hi ${data.fname} ...!  yor form has been submitted successfully. : )`
     );
     setData({
       fname: "",

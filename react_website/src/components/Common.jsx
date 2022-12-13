@@ -14,7 +14,7 @@ const Common = (props) => {
               <div>
                 <NavLink
                   to={props.visit}
-                  className="btn btn-outline-info btn-small"
+                  className="btn btn-outline-info btn-small  shadow-sm font-weight-bold"
                 >
                   {props.btnName}
                 </NavLink>
@@ -31,7 +31,7 @@ const Common = (props) => {
 
       <div className="jumbotron jumbotron-fluid">
         <div className="container text-center">
-          <h1 className="display-4">ToobiTech PVT.</h1>
+          <h1 className="display-4">MRK PVT.</h1>
           <p className="lead">
             A well known Web Designing and Web Development Comapny
           </p>

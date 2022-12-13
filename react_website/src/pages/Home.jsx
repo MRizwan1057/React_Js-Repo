@@ -6,7 +6,7 @@ const Home = () => {
       <Common
         name="Grow Your Business With"
         imgsrc={banner}
-        visit="/sevice"
+        visit="/service"
         btnName="Get Started"
       />
     </>

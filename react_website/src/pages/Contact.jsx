@@ -46,6 +46,7 @@ const Contact = () => {
                 <label htmlFor="fname">Full Name</label>
                 <input
                   type="text"
+                  required
                   className="form-control"
                   id="fname"
                   name="fname"
@@ -70,6 +71,7 @@ const Contact = () => {
                 <label htmlFor="email">Email address</label>
                 <input
                   type="email"
+                  required
                   className="form-control"
                   id="email"
                   name="email"
@@ -92,7 +94,9 @@ const Contact = () => {
                 ></textarea>
               </div>
               <div>
-                <button className="btn btn-outline-info">Submit Form</button>
+                <button className="btn btn-outline-info shadow-sm font-weight-bold">
+                  Submit Form
+                </button>
               </div>
             </form>
           </div>

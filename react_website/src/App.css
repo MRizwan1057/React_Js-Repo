@@ -43,7 +43,9 @@ nav {
   margin-bottom: 2rem;
   border-radius: 1.25rem;
   background: aliceblue;
+  transition: all 0.3s;
 }
+
 .card_img {
   max-height: 200px;
 }

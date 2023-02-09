@@ -22,7 +22,7 @@ const Todo = () => {
 
   const removeActivity = (i) => {
     const updatedListData = listData.filter((elem, id) => {
-      return i != id;
+      return i !== id;
     });
     setListData(updatedListData);
   };
@@ -52,7 +52,7 @@ const Todo = () => {
 
             <p className="list_heading">Here is your list : {")"}</p>
 
-            {listData != [] &&
+            {listData !== [] &&
               listData.map((data, i) => {
                 return (
                   <React.Fragment key={i}>

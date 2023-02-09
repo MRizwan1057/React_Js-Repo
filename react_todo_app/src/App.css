@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  background-color: rgb(7, 2, 71);
+  background-color: rgb(145, 138, 243);
   /* background:  */
   width: 50%;
   justify-content: center;
@@ -29,7 +29,7 @@ select {
 
 button {
   width: 15;
-  background-color: #4caf50;
+  background-color: #01db54;
   color: black;
   padding: 0.9rem 1.2rem;
   margin: 0.5rem 0.3rem;

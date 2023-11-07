@@ -45,6 +45,9 @@ nav {
   background: aliceblue;
   transition: all 0.3s;
 }
+.card-body {
+  text-align: center;
+}
 
 .card_img {
   max-height: 200px;
